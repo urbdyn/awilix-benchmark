@@ -1,0 +1,458 @@
+[
+  [
+    {
+      "numberServices": 50,
+      "maxInFlight": 1000,
+      "lifetimeType": "TRANSIENT",
+      "cacheBypass": true,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 314402,
+      "resolveCacheHits": 0,
+      "numberLogs": 628804,
+      "resolvedResults": 314401,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 2.396,
+      "totalDiInitializations": 1257608
+    }
+  ],
+  [
+    {
+      "numberServices": 50,
+      "maxInFlight": 1000,
+      "lifetimeType": "TRANSIENT",
+      "cacheBypass": false,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 317605,
+      "resolveCacheHits": 0,
+      "numberLogs": 635210,
+      "resolvedResults": 317604,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 2.399,
+      "totalDiInitializations": 1270420
+    }
+  ],
+  [
+    {
+      "numberServices": 50,
+      "maxInFlight": 1000,
+      "lifetimeType": "SCOPED",
+      "cacheBypass": true,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 122409,
+      "resolveCacheHits": 0,
+      "numberLogs": 244818,
+      "resolvedResults": 122408,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 2.347,
+      "totalDiInitializations": 367227
+    }
+  ],
+  [
+    {
+      "numberServices": 50,
+      "maxInFlight": 1000,
+      "lifetimeType": "SCOPED",
+      "cacheBypass": false,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 123330,
+      "resolveCacheHits": 0,
+      "numberLogs": 246660,
+      "resolvedResults": 123329,
+      "totalSeconds": 3.003,
+      "totalSecondsResolving": 2.287,
+      "totalDiInitializations": 369990
+    }
+  ],
+  [
+    {
+      "numberServices": 50,
+      "maxInFlight": 1000,
+      "lifetimeType": "SINGLETON",
+      "cacheBypass": true,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 1318438,
+      "resolveCacheHits": 1318388,
+      "numberLogs": 2636876,
+      "resolvedResults": 1318437,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 0.328,
+      "totalDiInitializations": 101
+    }
+  ],
+  [
+    {
+      "numberServices": 50,
+      "maxInFlight": 1000,
+      "lifetimeType": "SINGLETON",
+      "cacheBypass": false,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 338667,
+      "resolveCacheHits": 0,
+      "numberLogs": 677334,
+      "resolvedResults": 338666,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 2.383,
+      "totalDiInitializations": 101
+    }
+  ],
+  [
+    {
+      "numberServices": 100,
+      "maxInFlight": 1000,
+      "lifetimeType": "TRANSIENT",
+      "cacheBypass": true,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 107045,
+      "resolveCacheHits": 0,
+      "numberLogs": 214090,
+      "resolvedResults": 107044,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 2.78,
+      "totalDiInitializations": 428180
+    }
+  ],
+  [
+    {
+      "numberServices": 100,
+      "maxInFlight": 1000,
+      "lifetimeType": "TRANSIENT",
+      "cacheBypass": false,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 107177,
+      "resolveCacheHits": 0,
+      "numberLogs": 214354,
+      "resolvedResults": 107176,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 2.782,
+      "totalDiInitializations": 428708
+    }
+  ],
+  [
+    {
+      "numberServices": 100,
+      "maxInFlight": 1000,
+      "lifetimeType": "SCOPED",
+      "cacheBypass": true,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 46461,
+      "resolveCacheHits": 0,
+      "numberLogs": 92922,
+      "resolvedResults": 46460,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 2.737,
+      "totalDiInitializations": 139383
+    }
+  ],
+  [
+    {
+      "numberServices": 100,
+      "maxInFlight": 1000,
+      "lifetimeType": "SCOPED",
+      "cacheBypass": false,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 46519,
+      "resolveCacheHits": 0,
+      "numberLogs": 93038,
+      "resolvedResults": 46518,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 2.734,
+      "totalDiInitializations": 139557
+    }
+  ],
+  [
+    {
+      "numberServices": 100,
+      "maxInFlight": 1000,
+      "lifetimeType": "SINGLETON",
+      "cacheBypass": true,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 1285386,
+      "resolveCacheHits": 1285286,
+      "numberLogs": 2570772,
+      "resolvedResults": 1285385,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 0.319,
+      "totalDiInitializations": 201
+    }
+  ],
+  [
+    {
+      "numberServices": 100,
+      "maxInFlight": 1000,
+      "lifetimeType": "SINGLETON",
+      "cacheBypass": false,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 113896,
+      "resolveCacheHits": 0,
+      "numberLogs": 227792,
+      "resolvedResults": 113895,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 2.725,
+      "totalDiInitializations": 201
+    }
+  ],
+  [
+    {
+      "numberServices": 500,
+      "maxInFlight": 1000,
+      "lifetimeType": "TRANSIENT",
+      "cacheBypass": true,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 7482,
+      "resolveCacheHits": 0,
+      "numberLogs": 14964,
+      "resolvedResults": 7481,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 2.976,
+      "totalDiInitializations": 29928
+    }
+  ],
+  [
+    {
+      "numberServices": 500,
+      "maxInFlight": 1000,
+      "lifetimeType": "TRANSIENT",
+      "cacheBypass": false,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 7479,
+      "resolveCacheHits": 0,
+      "numberLogs": 14958,
+      "resolvedResults": 7478,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 2.971,
+      "totalDiInitializations": 29916
+    }
+  ],
+  [
+    {
+      "numberServices": 500,
+      "maxInFlight": 1000,
+      "lifetimeType": "SCOPED",
+      "cacheBypass": true,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 3521,
+      "resolveCacheHits": 0,
+      "numberLogs": 7042,
+      "resolvedResults": 3520,
+      "totalSeconds": 3.002,
+      "totalSecondsResolving": 2.957,
+      "totalDiInitializations": 10563
+    }
+  ],
+  [
+    {
+      "numberServices": 500,
+      "maxInFlight": 1000,
+      "lifetimeType": "SCOPED",
+      "cacheBypass": false,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 3421,
+      "resolveCacheHits": 0,
+      "numberLogs": 6842,
+      "resolvedResults": 3420,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 2.95,
+      "totalDiInitializations": 10263
+    }
+  ],
+  [
+    {
+      "numberServices": 500,
+      "maxInFlight": 1000,
+      "lifetimeType": "SINGLETON",
+      "cacheBypass": true,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 1218183,
+      "resolveCacheHits": 1217683,
+      "numberLogs": 2436366,
+      "resolvedResults": 1218182,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 0.575,
+      "totalDiInitializations": 1001
+    }
+  ],
+  [
+    {
+      "numberServices": 500,
+      "maxInFlight": 1000,
+      "lifetimeType": "SINGLETON",
+      "cacheBypass": false,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 7123,
+      "resolveCacheHits": 0,
+      "numberLogs": 14246,
+      "resolvedResults": 7122,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 2.974,
+      "totalDiInitializations": 1001
+    }
+  ],
+  [
+    {
+      "numberServices": 1000,
+      "maxInFlight": 1000,
+      "lifetimeType": "TRANSIENT",
+      "cacheBypass": true,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 1710,
+      "resolveCacheHits": 0,
+      "numberLogs": 3420,
+      "resolvedResults": 1709,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 2.994,
+      "totalDiInitializations": 6840
+    }
+  ],
+  [
+    {
+      "numberServices": 1000,
+      "maxInFlight": 1000,
+      "lifetimeType": "TRANSIENT",
+      "cacheBypass": false,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 1727,
+      "resolveCacheHits": 0,
+      "numberLogs": 3454,
+      "resolvedResults": 1726,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 2.987,
+      "totalDiInitializations": 6908
+    }
+  ],
+  [
+    {
+      "numberServices": 1000,
+      "maxInFlight": 1000,
+      "lifetimeType": "SCOPED",
+      "cacheBypass": true,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": false,
+      "requestNumber": 822,
+      "resolveCacheHits": 0,
+      "numberLogs": 1644,
+      "resolvedResults": 0,
+      "totalSeconds": 3.002,
+      "totalSecondsResolving": 2.985,
+      "totalDiInitializations": 2466
+    }
+  ],
+  [
+    {
+      "numberServices": 1000,
+      "maxInFlight": 1000,
+      "lifetimeType": "SCOPED",
+      "cacheBypass": false,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": false,
+      "requestNumber": 831,
+      "resolveCacheHits": 0,
+      "numberLogs": 1662,
+      "resolvedResults": 0,
+      "totalSeconds": 3.003,
+      "totalSecondsResolving": 2.972,
+      "totalDiInitializations": 2493
+    }
+  ],
+  [
+    {
+      "numberServices": 1000,
+      "maxInFlight": 1000,
+      "lifetimeType": "SINGLETON",
+      "cacheBypass": true,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 549841,
+      "resolveCacheHits": 548841,
+      "numberLogs": 1099682,
+      "resolvedResults": 549840,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 1.883,
+      "totalDiInitializations": 2001
+    }
+  ],
+  [
+    {
+      "numberServices": 1000,
+      "maxInFlight": 1000,
+      "lifetimeType": "SINGLETON",
+      "cacheBypass": false,
+      "numberSeconds": 3
+    },
+    {
+      "maxInFlightHit": true,
+      "requestNumber": 1757,
+      "resolveCacheHits": 0,
+      "numberLogs": 3514,
+      "resolvedResults": 1756,
+      "totalSeconds": 3.001,
+      "totalSecondsResolving": 2.995,
+      "totalDiInitializations": 1649
+    }
+  ]
+]
